@@ -1,0 +1,367 @@
+:root {
+  --color-title: #212121;
+  --color-text: #757575;
+  --color-link: #2196f3;
+  --color-fff: #fff;
+  --color-000: #000;
+  --color-slogan: #2f303a;
+  --color-button-hover: #188ce8;
+  --color-ourteam: #f5f4fa;
+  --border-top-color: #ececec;
+  --buttons-portf: #f5f4fa;
+  --card-portf: #eee;
+}
+
+body {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: var(--color-fff);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-menu {
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+}
+
+.logo {
+  color: var(--color-link);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo .logostudio {
+  color: var(--color-000);
+}
+
+.footer-logo {
+  color: var(--color-link);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
+  padding: 60px 0 20px 215px;
+  margin: 0;
+}
+
+.footer-logo .logostudio-footer {
+  color: var(--color-fff);
+}
+
+.header-linl-menu {
+  display: flex;
+  gap: 50px;
+  padding-right: 215px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-link {
+  color: var(--color-title);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.header-link-active {
+  color: var(--color-link);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.header-link:hover {
+  color: var(--color-link);
+}
+
+.contacts-link {
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.contacts-link:hover {
+  color: var(--color-link);
+}
+
+.slogan {
+  background-color: var(--color-slogan);
+  padding: 200px 0;
+  display: grid;
+  justify-items: center;
+}
+
+.slogan-text {
+  color: var(--color-fff);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  width: 700px;
+}
+
+.order {
+  font-style: normal;
+  background-color: var(--color-link);
+  color: var(--color-fff);
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.96px;
+  padding: 10px 32px;
+  cursor: pointer;
+}
+
+.order:hover {
+  background-color: var(--color-button-hover);
+}
+
+.order:focus {
+  background-color: var(--color-button-hover);
+}
+
+.whatdowedo {
+  background-color: var(--color-fff);
+}
+
+.what-main {
+  display: flex;
+  gap: 30px;
+  align-items: top;
+  justify-content: center;
+  padding: 94px 215px;
+}
+
+.what-title {
+  color: var(--color-title);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.what-text {
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.42px;
+  width: 270px;
+}
+
+.what-slogan {
+  color: var(--color-title);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.what-image-flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.what-image {
+  background-color: var(--color-fff);
+}
+
+.ourteam {
+  background-color: var(--color-ourteam);
+  padding-top: 94px;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 94px;
+  margin: 0;
+}
+
+.card {
+  width: 270px;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--color-fff);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.ourteam-title {
+  color: var(--color-title);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  padding-bottom: 50px;
+}
+
+.ourteam-name {
+  color: var(--color-title);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+  padding: 30px 0 10px 0;
+  margin: 0;
+}
+
+.ourteam-profession {
+  color: var(--color-text);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.footer {
+  background-color: var(--color-slogan);
+  margin: 0;
+  padding-top: 60px;
+}
+
+.footer-menu {
+  padding: 20px 0 60px 215px;
+  margin: 0;
+}
+
+.footer-link {
+  color: var(--color-fff);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  font-style: normal;
+}
+
+.footer-link:hover {
+  color: var(--color-link);
+}
+
+.footer-link:focus {
+  color: var(--color-link);
+}
+
+.footer-link-dop {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.42px;
+  font-style: normal;
+}
+
+.footer-link-dop:hover {
+  color: var(--color-link);
+}
+
+.footer-link-dop:focus {
+  color: var(--color-link);
+}
+
+.top-menu-portf {
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+}
+
+.button-menu {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 94px 0 56px 0;
+  border-top-style: solid;
+  border-top-color: var(--border-top-color);
+}
+
+.ourprojects {
+  padding-bottom: 94px;
+}
+
+.our-portf-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.buttons-portfolio {
+  width: 125px;
+  height: 38px;
+  border-radius: 4px;
+  background: var(--buttons-portf);
+  border: 0;
+  color: var(--color-title);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  cursor: pointer;
+}
+
+.buttons-portfolio:hover {
+  background-color: var(--color-link);
+  color: var(--color-fff);
+}
+
+.ourteam-portf-title {
+  color: var(--color-title);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 1.08px;
+  padding: 20px 0 0 24px;
+  margin: 0;
+}
+
+.ourteam-portf-text {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
+  letter-spacing: 0.48px;
+  padding: 4px 0 20px 24px;
+  margin: 0;
+}
+
+.card-portf {
+  width: 370px;
+  border: 1px solid var(--card-portf);
+  background: var(--color-fff);
+}
