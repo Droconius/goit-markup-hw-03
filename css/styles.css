@@ -16,6 +16,7 @@ body {
   font-style: normal;
   font-family: "Roboto", sans-serif;
   margin: 0;
+  display: block;
 }
 
 a {
@@ -31,17 +32,26 @@ button {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  width: 1200px;
+  padding: 24px 0 24px 0;
+  margin: 0;
+}
+
 .header {
+  border-bottom: 1px solid var(--border-top-color);
+}
+
+.header-menu {
   background-color: var(--color-fff);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .top-menu {
   display: flex;
   align-items: center;
-  padding-left: 215px;
 }
 
 .logo {
@@ -50,6 +60,7 @@ button {
   font-weight: 700;
   line-height: 1.17;
   font-family: "Raleway", sans-serif;
+  padding-right: 90px;
 }
 
 .logo .logostudio {
@@ -70,12 +81,18 @@ button {
   color: var(--color-fff);
 }
 
+.header-lin-menu {
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+
 .header-linl-menu {
   display: flex;
   gap: 50px;
-  padding-right: 215px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 0;
+  margin: 0 0 0 350px;
 }
 
 .header-link {
@@ -83,6 +100,7 @@ button {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
+  display: block;
 }
 
 .header-link-active {
@@ -90,6 +108,7 @@ button {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
+  display: block;
 }
 
 .header-link:hover {
