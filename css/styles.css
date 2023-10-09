@@ -34,8 +34,11 @@ button {
 
 .container {
   width: 1200px;
-  padding: 24px 0 24px 0;
+  padding: 0 15px 0 15px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header {
@@ -101,6 +104,7 @@ button {
   font-weight: 500;
   line-height: 1.17;
   display: block;
+  padding: 32px 0;
 }
 
 .header-link-active {
@@ -109,6 +113,7 @@ button {
   font-weight: 500;
   line-height: 1.17;
   display: block;
+  padding: 32px 0;
 }
 
 .header-link:hover {
@@ -210,7 +215,7 @@ button {
   align-items: center;
   gap: 30px;
   justify-content: center;
-  padding-bottom: 94px;
+  padding: 0 0 94px 0;
 }
 
 .what-image {
@@ -219,14 +224,14 @@ button {
 
 .ourteam {
   background-color: var(--color-ourteam);
-  padding-top: 94px;
+  padding: 94px 0 94px 0;
 }
 
 .our-team-list {
   display: flex;
   gap: 30px;
   justify-content: center;
-  padding-bottom: 94px;
+  padding: 0;
   margin: 0;
 }
 
@@ -245,6 +250,7 @@ button {
   font-weight: 700;
   letter-spacing: 1.08px;
   padding-bottom: 50px;
+  margin: 0;
 }
 
 .ourteam-name {
@@ -270,7 +276,7 @@ button {
 .footer {
   background-color: var(--color-slogan);
   margin: 0;
-  padding-top: 60px;
+  padding: 0;
 }
 
 .footer-menu {
