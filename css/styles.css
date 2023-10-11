@@ -65,21 +65,6 @@ button {
   color: var(--color-000);
 }
 
-.footer-logo {
-  color: var(--color-link);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.17;
-  font-family: "Raleway", sans-serif;
-  display: block;
-  padding: 60px 0 20px 215px;
-  margin: 0;
-}
-
-.footer-logo .logostudio-footer {
-  color: var(--color-fff);
-}
-
 .header-lin-menu {
   display: flex;
   gap: 50px;
@@ -274,12 +259,25 @@ button {
 
 .footer {
   background-color: var(--color-slogan);
-  margin: 0;
+  padding: 20px;
+}
+
+.footer-logo {
+  color: var(--color-link);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  font-family: "Raleway", sans-serif;
   padding: 0;
+  margin: 0;
+}
+
+.footer-logo .logostudio-footer {
+  color: var(--color-fff);
 }
 
 .footer-menu {
-  padding: 20px 0 60px 215px;
+  padding: 0;
   margin: 0;
 }
 
