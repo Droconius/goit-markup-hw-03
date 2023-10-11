@@ -23,6 +23,7 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
 }
 
 button {
@@ -77,9 +78,6 @@ button {
   gap: 50px;
   padding: 0;
   margin-left: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: 0;
 }
 
 .header-link {
@@ -279,7 +277,7 @@ button {
 
 .footer-menu {
   padding: 0;
-  margin: 28px 0 0 0;
+  margin-top: 28px;
 }
 
 .footer-link {
