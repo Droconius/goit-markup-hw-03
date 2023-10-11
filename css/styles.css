@@ -259,7 +259,8 @@ button {
 
 .footer {
   background-color: var(--color-slogan);
-  padding: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
