@@ -17,6 +17,21 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,11 +39,17 @@ a {
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 button {
   font-style: normal;
   font-family: "Roboto", sans-serif;
+  padding: 0;
+}
+
+img {
+  display: block;
 }
 
 .container {
@@ -114,10 +135,12 @@ button {
 }
 
 .slogan {
+  text-align: center;
+}
+
+.section-slogan {
   background-color: var(--color-slogan);
   padding: 200px 0;
-  display: grid;
-  justify-items: center;
 }
 
 .slogan-text {
@@ -129,6 +152,8 @@ button {
   letter-spacing: 2.64px;
   text-transform: uppercase;
   width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .order {
@@ -158,12 +183,37 @@ button {
   background-color: var(--color-fff);
 }
 
+.section-whatdowedo {
+  padding: 94px 0;
+}
+
+.slogan-whatdowedo {
+  visibility: hidden;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .what-main {
   display: flex;
   gap: 30px;
-  align-items: top;
   justify-content: center;
-  padding: 94px 215px;
+}
+
+.what-list {
+  width: 270px;
+  display: block;
 }
 
 .what-title {
@@ -173,6 +223,7 @@ button {
   line-height: 1.17;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .what-text {
@@ -181,7 +232,6 @@ button {
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.42px;
-  width: 270px;
 }
 
 .what-slogan {
@@ -190,6 +240,12 @@ button {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+
+.section-what-image {
+  padding-bottom: 94px;
+  background-color: var(--color-fff);
 }
 
 .what-image-flex {
@@ -197,24 +253,17 @@ button {
   align-items: center;
   gap: 30px;
   justify-content: center;
-  padding: 0 0 94px 0;
 }
 
-.what-image {
-  background-color: var(--color-fff);
-}
-
-.ourteam {
+.section-ourteam {
   background-color: var(--color-ourteam);
-  padding: 94px 0 94px 0;
+  padding: 94px 0;
 }
 
 .our-team-list {
   display: flex;
   gap: 30px;
   justify-content: center;
-  padding: 0;
-  margin: 0;
 }
 
 .card {
@@ -223,6 +272,7 @@ button {
   background: var(--color-fff);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  padding-bottom: 30px;
 }
 
 .ourteam-title {
@@ -231,8 +281,7 @@ button {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  padding-bottom: 50px;
-  margin: 0;
+  margin-bottom: 50px;
 }
 
 .ourteam-name {
@@ -241,8 +290,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
-  padding: 30px 0 10px 0;
-  margin: 0;
+  margin: 30px 0 10px 0;
 }
 
 .ourteam-profession {
@@ -251,14 +299,11 @@ button {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;
-  padding-bottom: 30px;
-  margin: 0;
 }
 
 .footer {
   background-color: var(--color-slogan);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 
 .footer-logo {
@@ -276,7 +321,6 @@ button {
 }
 
 .footer-menu {
-  padding: 0;
   margin-top: 28px;
 }
 
@@ -320,16 +364,20 @@ button {
   padding-left: 215px;
 }
 
+.section-portfolio {
+  padding: 94px 0;
+  margin: 0;
+}
+
 .button-menu {
   display: flex;
   gap: 30px;
   justify-content: center;
-  padding: 94px 0 50px 0;
-  margin: 0;
+  margin-bottom: 56px;
 }
 
 .ourprojects {
-  padding-bottom: 94px;
+  padding-bottom: 0px;
 }
 
 .our-portf-list {
@@ -337,8 +385,6 @@ button {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  padding-bottom: 94px;
-  margin: 0;
 }
 
 .buttons-portfolio {
@@ -367,8 +413,7 @@ button {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 1.08px;
-  padding: 20px 0 0 24px;
-  margin: 0;
+  margin: 20px 0 0 24px;
 }
 
 .ourteam-portf-text {
@@ -377,12 +422,12 @@ button {
   font-weight: 400;
   line-height: 1.875;
   letter-spacing: 0.48px;
-  padding: 4px 0 20px 24px;
-  margin: 0;
+  margin-left: 24px;
 }
 
 .card-portf {
   width: 370px;
   border: 1px solid var(--card-portf);
   background: var(--color-fff);
+  padding-bottom: 20px;
 }
